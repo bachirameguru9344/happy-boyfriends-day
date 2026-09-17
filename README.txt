@@ -1,11 +1,24 @@
 ROMANTIC DARK BOYFRIEND'S DAY SCRAPBOOK
 
-1. Open index.html.
-2. Choose up to 4 photos.
-3. Paste your personal letter.
-4. Choose an audio file for the background song.
-5. Click Apply.
+GitHub Pages ready.
 
-For a public shareable website, put the finished files online (for example with GitHub Pages). Because browser-selected photos/music are temporary previews, for publishing you should place the actual photo/audio files into the project and reference them from the HTML, or I can prepare that version for you once you upload the photos and song here.
+Files:
+- index.html
+- style.css
+- script.js
+- assets/photo1.jpg ... photo4.jpg
 
-Theme: romantic dark, handwritten scrapbook, polaroids, washi tape, paper grain, falling hearts, music controls.
+The four photos are already built into the website in the exact order provided.
+
+To publish:
+1. Upload ALL files and the assets folder to the root of your GitHub repository.
+2. Go to Settings -> Pages.
+3. Source: Deploy from a branch.
+4. Branch: main.
+5. Folder: / (root).
+6. Save.
+
+Then GitHub Pages will publish the site at:
+https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+
+No audio is included in this version.
