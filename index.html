@@ -1,101 +1,284 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>For You, My Love 🖤</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Patrick+Hand&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Boyfriend's Day ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="grain"></div><div id="hearts"></div>
 
-<header class="topbar">
-  <div class="brand">♡ our little story</div>
-</header>
+    <div class="page">
 
-<main class="book">
-  <div class="paperclip">⌇</div>
+        <!-- ==================== PAGE 1 ==================== -->
 
-  <section class="page active">
-    <div class="moon">☾</div>
-    <p class="eyebrow">a little something for you</p>
-    <h1>Happy<br><i>Boyfriend's Day</i></h1>
-    <p class="subtitle">made with all my love, just for you.</p>
-    <div class="scribble">♡</div>
-    <button class="next">open my heart →</button>
-  </section>
+        <section class="screen active">
 
-  <section class="page">
-    <p class="eyebrow">01 · my favourite person</p>
-    <div class="photo-wrap">
-      <div class="photo big"><img id="photo1" src="photo1.jpg" alt="Our photo"><span>your photo ♡</span></div>
-      <div class="caption">the one who has my whole heart</div>
+            <div class="decor star1">✦</div>
+            <div class="decor star2">✧</div>
+            <div class="decor heart1">♡</div>
+
+            <p class="tiny">
+                A LITTLE SOMETHING FOR YOU
+            </p>
+
+            <h1>
+                HAPPY<br>
+                BOYFRIEND'S<br>
+                DAY
+            </h1>
+
+            <p class="intro">
+                for my favourite person in the whole world ♡
+            </p>
+
+            <button onclick="nextPage()">
+                OPEN MY HEART →
+            </button>
+
+        </section>
+
+
+        <!-- ==================== PAGE 2 ==================== -->
+
+        <section class="screen">
+
+            <p class="tiny">
+                THE BOYFRIEND
+            </p>
+
+            <h2>
+                You are<br>
+                my favourite person.
+            </h2>
+
+            <div class="polaroid single">
+
+                <img
+                    src="photos/photo1.jpg"
+                    alt="Our photo"
+                >
+
+                <p>
+                    my favourite human ♡
+                </p>
+
+            </div>
+
+            <button onclick="nextPage()">
+                NEXT →
+            </button>
+
+        </section>
+
+
+        <!-- ==================== PAGE 3 ==================== -->
+
+        <section class="screen">
+
+            <p class="tiny">
+                A FEW OF MY FAVOURITE THINGS
+            </p>
+
+            <div class="photo-wall">
+
+                <div class="polaroid tilt-left">
+
+                    <img
+                        src="photos/photo2.jpg"
+                        alt="Our photo"
+                    >
+
+                </div>
+
+
+                <div class="polaroid tilt-right">
+
+                    <img
+                        src="photos/photo3.jpg"
+                        alt="Our photo"
+                    >
+
+                </div>
+
+
+                <div class="polaroid">
+
+                    <img
+                        src="photos/photo4.jpg"
+                        alt="Our photo"
+                    >
+
+                </div>
+
+            </div>
+
+            <p class="handwritten">
+                every memory with you<br>
+                is one I want to keep forever ♡
+            </p>
+
+            <button onclick="nextPage()">
+                NEXT →
+            </button>
+
+        </section>
+
+
+        <!-- ==================== PAGE 4 ==================== -->
+
+        <section class="screen">
+
+            <p class="tiny">
+                JUST SO YOU KNOW...
+            </p>
+
+            <h2>
+                You make my<br>
+                ordinary days<br>
+                feel special.
+            </h2>
+
+            <p class="message">
+                Thank you for being you.<br>
+                Thank you for all the little things,<br>
+                the laughs, the memories,<br>
+                and everything in between.
+            </p>
+
+            <div class="love">
+                I LOVE YOU SO MUCH &lt;3
+            </div>
+
+            <button onclick="nextPage()">
+                ONE LAST THING →
+            </button>
+
+        </section>
+
+
+        <!-- ==================== PAGE 5 ==================== -->
+        <!-- OUR MEMORIES : 3 PHOTOS -->
+
+        <section class="screen">
+
+            <p class="tiny">
+                OUR MEMORIES
+            </p>
+
+            <div class="photo-grid">
+
+                <img
+                    src="photos/photo5.jpg"
+                    alt="Our memory"
+                >
+
+                <img
+                    src="photos/photo6.jpg"
+                    alt="Our memory"
+                >
+
+                <img
+                    src="photos/photo7.jpg"
+                    alt="Our memory"
+                >
+
+            </div>
+
+            <p class="handwritten">
+                look how cute we are 🥹♡
+            </p>
+
+            <button onclick="nextPage()">
+                NEXT →
+            </button>
+
+        </section>
+
+
+        <!-- ==================== PAGE 6 ==================== -->
+
+        <section class="screen">
+
+            <p class="tiny">
+                A LETTER FOR YOU
+            </p>
+
+            <div class="letter">
+
+                <p>
+                    Dear my love,
+                </p>
+
+                <p>
+                    I don't think I say it enough,
+                    but I am so grateful that I have you.
+                    You make me smile in ways you probably
+                    don't even realise.
+                </p>
+
+                <p>
+                    Thank you for every laugh,
+                    every memory, every little moment,
+                    and simply for being there.
+                </p>
+
+                <p>
+                    I hope you always know how loved
+                    and appreciated you are.
+                </p>
+
+                <p class="signature">
+                    Always yours ♡
+                </p>
+
+            </div>
+
+            <button onclick="nextPage()">
+                NEXT →
+            </button>
+
+        </section>
+
+
+        <!-- ==================== PAGE 7 ==================== -->
+
+        <section class="screen final">
+
+            <div class="decor final-heart">
+                ♡
+            </div>
+
+            <p class="tiny">
+                AND FINALLY...
+            </p>
+
+            <h1>
+                YOU ARE<br>
+                MY<br>
+                FAVOURITE.
+            </h1>
+
+            <p class="final-text">
+                Today, tomorrow,<br>
+                and all the days after. ❤️
+            </p>
+
+            <button onclick="restart()">
+                READ IT AGAIN ↻
+            </button>
+
+        </section>
+
     </div>
-    <h2>Somehow, I got you.</h2>
-    <p class="hand">And honestly? I still can't believe how lucky I feel.</p>
-    <button class="next">keep reading →</button>
-  </section>
 
-  <section class="page">
-    <p class="eyebrow">02 · pieces of us</p>
-    <div class="collage">
-      <div class="photo p1"><img id="photo2" src="photo2.jpg" alt="Memory"><span>memory</span></div>
-      <div class="photo p2"><img id="photo3" src="photo3.jpg" alt="Memory"><span>memory</span></div>
-      <div class="photo p3"><img id="photo4" src="photo4.jpg" alt="Memory"><span>memory</span></div>
-      <div class="note">you + me<br><b>always.</b> ♡</div>
-      <div class="torn">little moments<br>that mean everything</div>
-    </div>
-    <button class="next">one more page →</button>
-  </section>
 
-  <section class="page">
-    <p class="eyebrow">03 · official love coupon</p>
-    <div class="coupon">
-      <div class="coupon-head">THIS COUPON ENTITLES THE HOLDER TO</div>
-      <div class="coupon-main"><em>UNLIMITED</em><br>HUGS<br><span>&amp; KISSES</span></div>
-      <div class="coupon-line"></div>
-      <div class="coupon-foot">valid forever · non-transferable · no expiration</div>
-      <div class="barcode">||| |||| || ||||| ||||</div>
-    </div>
-    <p class="hand">I LOVE YOU SO MUCH <3</p>
-    <button class="next">there's a letter →</button>
-  </section>
+    <script src="script.js"></script>
 
-  <section class="page">
-    <p class="eyebrow">04 · from my heart</p>
-    <article class="letter">
-      <div class="tape"></div>
-      <h2>To My Favourite Person</h2>
-      <p id="message">Happy Boyfriend's Day, my love.
-
-Thank you for being my comfort, my favourite person, and the one who can make an ordinary day feel special.
-
-I love the way you care, the way you make me laugh, and the quiet comfort of simply knowing you're there. I'm grateful for every memory, every conversation, every silly moment, and every little thing that makes us us.
-
-If I could choose all over again, I'd still choose you.
-
-I love you more than words can ever say. ♡</p>
-      <div class="signature">yours, always — ♡</div>
-    </article>
-    <button class="next">last little thing →</button>
-  </section>
-
-  <section class="page final">
-    <div class="orbit">♡　✦　♡</div>
-    <div class="heart">♥</div>
-    <h1>Always<br><i>you.</i></h1>
-    <p class="hand">Happy Boyfriend's Day, my love.</p>
-    <p class="eyebrow">thank you for being my person.</p>
-    <button class="restart">↻ read it again</button>
-  </section>
-
-  <div class="progress"><span></span></div>
-  <div class="count">01 / 06</div>
-</main>
-
-<script src="script.js"></script>
 </body>
+
 </html>
